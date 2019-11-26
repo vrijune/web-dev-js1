@@ -73,8 +73,8 @@ Now, we'll add some JavaScript code which will add the ```.animated``` class to 
     
 5. Write code in your function so that the ```animated``` class is applied to a bauble when it is clicked. The ```document.getElementById()``` function, and the ```classList``` property, should help with this as shown in the lecture slides.
 
-### (Bonus) Exercise 4.5
-As an extension to exercise four, further modify your code so that if you click on a bauble that's already animating (or has finished animating), its animation will stop and it will return to its original position.
+### (Bonus) Exercise 3.5
+As an extension to exercise three, further modify your code so that if you click on a bauble that's already animating (or has finished animating), its animation will stop and it will return to its original position.
 
 
 Exercise Four
