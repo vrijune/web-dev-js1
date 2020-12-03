@@ -61,9 +61,30 @@ img {
 
 /* TODO: Complete this (by copying relevant stuff from exercise two) */
 .animated {
-    animation-name: ??;
-    animation-fill-mode: ??;
-    animation-duration: ??;
+    animation-name:baubleDrop;
+    animation-fill-mode: forwards;
+    animation-duration: 5s;
 }
 
 /* TODO: Add your @keyframes here */
+
+@keyframes baubleDrop {
+    25%{top: 477px}
+    50%{top: 350px}
+    75%{top:477px}
+    100%{top:350px}
+}
+
+#container:hover #pink{
+    z-index: 3;
+}
+#container:not(:hover) .bauble{
+    top: 477px;
+}
+#container:not(:hover) #pink{
+    z-index: 3;
+}
+
+
+
+
